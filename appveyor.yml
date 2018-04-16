@@ -1,0 +1,14 @@
+environment:
+  nodejs_version: "9"
+  # TEST_SERIES: "1"
+  
+install:
+  - ps: Install-Product node $env:nodejs_version x64
+  - git config --global user.email "oclif@example.com"
+  - git config --global user.name "oclif"
+  - yarn
+test_script:
+  - bin run
+
+build: off
+
