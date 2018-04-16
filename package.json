@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/allileong/test#readme",
   "scripts": {
-    "test": "bin/run"
+    "test": "node bin/run"
   }
 }
